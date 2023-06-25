@@ -1,0 +1,50 @@
+.taskCard {
+  padding: 16px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #F1F0F3;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.title {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 20px;
+  color: #9494A8;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  margin-top: 4px;
+
+  time {
+    font-size: 14px;
+    line-height: 20px;
+    color: #9494A8;
+    position: relative;
+
+    &::after {
+      content: "\2022";
+      position: absolute;
+      top: 0;
+      right: -20px;
+    }
+  }
+
+  span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #9494A8;
+  }
+}

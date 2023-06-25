@@ -1,0 +1,31 @@
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+  padding: 12px 12px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9494A8;
+  cursor: pointer;
+
+  &.active {
+    color: #11121B;
+    border-bottom: 2px solid #672FD9;
+    font-weight: 500;
+  }
+
+  span {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #F6F5FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
