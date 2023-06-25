@@ -1,0 +1,33 @@
+.basicProjectCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  text-decoration: none;
+  color: #1F2E40;
+  border: 1px solid #F3F3F5;
+  border-radius: 8px;
+
+  &:hover {
+    color: #FFF;
+    background-color: #365EFF;
+    border: 1px solid #365EFF;
+  }
+
+  .iconTitleHolder {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    h5 {
+      font-weight: 500;
+    }
+  }
+  
+  .square {
+    width: 36px;
+    height: 36px;
+    background-color: #F7EAFD;
+    border-radius: 8px;
+  }
+}

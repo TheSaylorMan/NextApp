@@ -1,0 +1,9 @@
+primeiro nome, obrigatório
+
+último nome
+
+data de nascimento
+
+email, obrigatório e tem que ser email = yup.string().email()
+
+mensagem, obrigatório!

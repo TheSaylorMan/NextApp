@@ -1,0 +1,28 @@
+.projectsGrid {
+  display: grid;
+  grid-template-columns: 290px 1fr;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  padding: 36px 24px;
+  gap: 24px;
+
+  h1 {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+  }
+}
+
+.projectDetails {
+  background-color: #F7F7F7;
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+body {
+  display: block;
+  background-color: #FFF;
+
+  > div {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    height: 100%;
+  }
+}

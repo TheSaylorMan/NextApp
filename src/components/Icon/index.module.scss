@@ -1,0 +1,17 @@
+.icon {
+  display: flex;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  color: #B8BDCB;
+
+  &.active {
+    border-left: 3px solid #365EFF;
+    color: #365EFF;
+  }
+}
